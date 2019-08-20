@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<body style= "background-color: white;">
 <head >
     <link ref="stylesheet" href= "im.css">
   <title>Take two</title>
@@ -64,8 +63,8 @@
 
       </ul>
     </nav>
-    <h1 align = "center"> Media  </h1>
-    <div align = "center">
+    <h1 align = "center" style = "margin-top: 20px;"> Media  </h1>
+    <div align = "center" style = "margin: 0px 30px;">
         <em>“This was the secret of America: a nation of people with the fresh
            memory of old traditions who dared to explore new frontiers, people eager to
            build lives for themselves in a spacious society that did not restrict their freedom of choice and action.”</em> —John F. Kennedy, A Nation of Immigrants
@@ -102,47 +101,60 @@
   </p> </div>
 </div>
 
+<div style = "margin: 50px 0px;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 45%; height: 325px; overflow: auto; margin-left: 3%;display: inline-block;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
-<div>
-
-</div>
-
-<div>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="kids.jpg" class="d-block" width = "45%"; alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="full2.jpg" class="d-block"  width  = "45%" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="house.jpg" class="d-block"  width =  "45%" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="patrol.jpg" class="d-block"  width = "45%" alt="...">
-    </div>
-</div>
-<!--
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-          <img src="jail.jpg" class="d-block"  width = "50%" alt="...">
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class = "w-100 rounded" src="kids.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class = "w-100 rounded" src="full2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class = "w-100 rounded" src="house.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class = "w-100 rounded" src="patrol.jpg" alt="Fourth slide">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="full.jpg" class="d-block"  width = "50%" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="hor.jpg" class="d-block"  width = "50%" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="hail.jpg" class="d-block"  width = "50%" alt="...">
-      </div>
-  </div>
-</div> -->
+    </div>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" style="width: 45%; height: 325px; margin-right: 3%; float: right; clear: left; overflow: auto;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExample" data-slide-to="1"></li>
+        <li data-target="#carouselExample" data-slide-to="2"></li>
+        <li data-target="#carouselExample" data-slide-to="3"></li>
+
+      </ol>
+      <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class = "w-100 rounded h-100" src="jail.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class = "w-100 rounded h-100" src="full.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class = "w-100 rounded h-100" src="hor.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class = "w-100 rounded h-100" src="hail.jpg" alt="Fourth slide">
+            </div>
+          </div>
+        </div>
+    </div>
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div align = "center" style="margin-bottom: 20px;"> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
 <script src = "im.js"> </script>
 
   </body>
