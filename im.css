@@ -15,7 +15,7 @@
 }
 
 #myBtn:hover {
-  background-color:#4169E1; /* Add a color background on hover */
+  background-color:#555; /* Add a color background on hover */
 }
 
 figcaption{
@@ -136,7 +136,7 @@ figcaption{
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+  padding: 0 5px;
 }
 
 /* Clear floats */
